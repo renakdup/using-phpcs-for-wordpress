@@ -10,5 +10,9 @@
   ],
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7"
+  },
+  "scripts": {
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf"
   }
 }
