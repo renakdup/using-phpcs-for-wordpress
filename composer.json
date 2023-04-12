@@ -1,0 +1,13 @@
+{
+  "name": "wp-yoda/example",
+  "description": "Using PHPCS in WordPress",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrei Pisarevskii",
+      "email": "renakdup@gmail.com"
+    }
+  ],
+  "require-dev": {
+  }
+}
