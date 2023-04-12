@@ -1,10 +1,12 @@
 <?php
+
+namespace APP;
  
 class PHPCSWorkExample
 {
     private $name = 'test';
 
-    function get_test_name()
+    public function getTestName()
     {
         return $this->name;
     }
