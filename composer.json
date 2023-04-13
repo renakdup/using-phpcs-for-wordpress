@@ -14,8 +14,8 @@
     "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
   },
   "scripts": {
-    "phpcs": "phpcs",
-    "phpcbf": "phpcbf"
+    "phpcs": "phpcs --standard=./phpcs.xml",
+    "phpcbf": "phpcbf --standard=./phpcs.xml"
   },
   "config": {
     "allow-plugins": {
