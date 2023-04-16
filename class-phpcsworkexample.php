@@ -24,7 +24,9 @@ class PHPCSWorkExample {
 	 *
 	 * @return string
 	 */
-	public function get_test_name() {
+	public function get_test_name() { ?>
+		<p><?= esc_html( $this->name ) ?></p>
+		<?php
 		return $this->name;
 	}
 }
