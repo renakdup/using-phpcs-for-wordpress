@@ -5,8 +5,6 @@
  * @package APP
  */
 
-namespace APP;
-
 /**
  * PHPCSWorkExample
  */

@@ -19,10 +19,9 @@
     <rule ref="PHPCompatibilityWP"/>
 
     <!-- What to scan -->
-    <file>./</file>
-    <!-- <file>wp-content/mu-plugins/</file> -->
-    <!-- <file>wp-content/plugins/</file> -->
-    <!-- <file>wp-content/themes/</file> -->
+     <file>wp-content/mu-plugins/</file>
+     <file>wp-content/plugins/</file>
+     <file>wp-content/themes/</file>
 
     <!-- Exclude common files -->
     <exclude-pattern>*/\.idea/*</exclude-pattern>
@@ -137,4 +136,8 @@
         </properties>
     </rule>
 
+    <!-- Fix errors "No PHP code was found" in GitHub action. These errors show on GitHub actions. It can happen in case you run PHPCS into Docker container -->
+    <rule ref="Internal.NoCodeFound">
+        <severity>0</severity>
+    </rule>
  </ruleset>
