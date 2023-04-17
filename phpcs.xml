@@ -23,6 +23,12 @@
      <file>wp-content/plugins/</file>
      <file>wp-content/themes/</file>
 
+    <!-- Exclude "Third-party Themes" -->
+    <!-- <exclude-pattern>wp-content/themes/twentytwenty/</exclude-pattern> -->
+
+    <!-- Exclude "Third-party Plugins" -->
+    <!-- <exclude-pattern>wp-content/plugins/advanced-custom-fields-pro/</exclude-pattern> -->
+
     <!-- Exclude common files -->
     <exclude-pattern>*/\.idea/*</exclude-pattern>
     <exclude-pattern>*/\.github/*</exclude-pattern>
