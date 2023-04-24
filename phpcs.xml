@@ -15,7 +15,7 @@
     <!-- Minimum WP version to check for usage of deprecated functions, classes and function parameters -->
     <config name="minimum_supported_wp_version" value="5.4.1"/>
 
-    <!-- Rules: Check PHP version compatibility -->
+    <!-- Rules:  -->
     <rule ref="PHPCompatibilityWP"/>
 
     <!-- What to scan -->
@@ -136,8 +136,8 @@
     <rule ref="WordPress.Security.EscapeOutput">
         <properties>
             <property name="customAutoEscapedFunctions" type="array">
-                <element value="nwp_render_attributes" />
-                <element value="nwp_get_picture_html" />
+                <element value="rd_render_attributes" />
+                <element value="rd_get_picture_html" />
             </property>
         </properties>
     </rule>
