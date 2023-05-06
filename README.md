@@ -1,6 +1,8 @@
 # Using PHPCS for WordPress projects
 Example of using PHPCS for WordPress projects.
 
+![main workdlow](https://github.com/github/docs/actions/workflows/ci.yml/badge.svg?branch=renakdup-patch-1)
+
 ## About project
 You can get to know with configured WPCS rules for PHPCS linter, and how to use it with WordPress project.  
 Also, you can get to know how to use PHPCS with Github actions.
