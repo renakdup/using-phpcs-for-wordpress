@@ -1,4 +1,4 @@
-# Using PHPCS for WordPress projects
+# Using PHPCS linter in WordPress with WPCS standard
 Example of using PHPCS for WordPress projects.
 
 ## About project
@@ -11,3 +11,7 @@ Also, you can get to know how to use PHPCS with Github actions.
 **NOTE**: if you use php 8 you need to use wp-coding-standards/wpcs:"dev-develop" package, because WPCS sniff doesn't support php 8 yet.
 
 - Then you can run composer commands inside a container.
+
+Articles with detailer descriptions you find below:
+- https://wp-yoda.com/en/wordpress/using-phpcs-linter-in-wordpress-with-wpcs-standard/ [En]
+- https://wp-yoda.com/wordpress/ispolzovanie-phpcs-lintera-v-wordpress/ [Ru]
