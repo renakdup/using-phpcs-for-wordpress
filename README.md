@@ -2,6 +2,8 @@
 
 ![Workflow with PHPCS linter](https://github.com/renakdup/using-phpcs-for-wordpress/workflows/Workflow%20with%20PHPCS%20linter/badge.svg)
 
+---
+
 Example of using PHPCS for WordPress projects.
 
 ## Explanation
